@@ -1,10 +1,7 @@
 random123
 radom321
 da
-dada
 python -u "e:\pyhtono\cli-based-pos\main.py"
 ada
 ada
-dada
 kjajda
-sdask

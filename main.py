@@ -1,7 +1,7 @@
 
 from addproduct import addproduct
-
-
+from productviews import productviews
+from deleteline import deleteline
 
 def manage_products():
     print("Managing Products")
@@ -15,10 +15,13 @@ def add_product():
         addproduct(productname) 
 
 def view_products():
-    print("Viewing Products")
+    print("Product List")
+    data=productviews()
+    print(data)
 
 def update_or_delete_product():
-    print("Update/Delete Product")
+   text=input("Enter word to delete: ")
+   deleteline(text)
 
 def signin():
     print("In Sign in")
