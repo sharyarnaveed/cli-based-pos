@@ -10,17 +10,6 @@ A lightweight command-line Point of Sale (POS) system written in Python. This ap
 - 📦 **Product Management**  
   Add, view, update, or delete product entries.
 
-- 💰 **Sales Processing**  
-  Handle sales transactions, generate receipts, and store them for future reference.
-
-- 👤 **Customer Accounts**  
-  Manage customer profiles and track outstanding balances.
-
-- 🧾 **Payments Tracking**  
-  Record customer payments and update account balances.
-
-- 📊 **Reports**  
-  View daily sales summaries and payment logs.
 
 ---
 
@@ -34,21 +23,6 @@ A lightweight command-line Point of Sale (POS) system written in Python. This ap
   │     ├── Add Product
   │     ├── View Products
   │     └── Update/Delete Product
-  │
-  ├── Process Sale
-  │     ├── Select Product(s)
-  │     ├── Add Quantity
-  │     ├── Calculate Total
-  │     └── Print Receipt + Save Sale
-  │
-  ├── Manage Accounts
-  │     ├── View Account Details
-  │     ├── Add Payment
-  │     └── Update Balance
-  │
-  ├── View Reports
-  │     ├── Daily Sales
-  │     └── Payments
   │
   └── Exit Program
 
